@@ -1,14 +1,21 @@
 {
-  "name": "project1",
+  "name": "profit-calculator",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.9.0",
+    "@material-ui/lab": "^4.0.0-alpha.40",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "axios": "^0.19.1",
+    "material-ui": "^0.20.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-number-format": "^4.3.1",
+    "react-scripts": "3.4.0",
+    "react-spring": "^8.0.27",
+    "react-text-mask": "^5.4.3"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -30,5 +37,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0"
   }
 }
